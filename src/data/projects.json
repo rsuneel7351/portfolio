@@ -1,0 +1,184 @@
+{
+  "featured": [
+    {
+      "id": "task-delegation",
+      "title": "Task Delegation System",
+      "summary": "AI-powered task management platform that automatically assigns tasks based on team member skills and availability.",
+      "role": "Full-Stack Developer",
+      "stack": ["React", "Node.js", "MongoDB", "OpenAI API", "Socket.io"],
+      "impact": "Reduced task assignment time by 70% and improved team productivity by 35%",
+      "period": "2023-03 - 2023-08",
+      "images": [
+        "/screenshots/task-delegation-1.jpg",
+        "/screenshots/task-delegation-2.jpg",
+        "/screenshots/task-delegation-3.jpg"
+      ],
+      "repo": "https://github.com/suneelrajput/task-delegation",
+      "live": "https://task-delegation.vercel.app",
+      "problem": "Manual task assignment was time-consuming and often resulted in mismatched assignments based on team member availability and skills.",
+      "solution": "Built an AI-powered system that analyzes task requirements, team member skills, and current workload to automatically suggest optimal task assignments.",
+      "tech_details": [
+        "Implemented real-time collaboration using Socket.io",
+        "Integrated OpenAI API for intelligent task categorization",
+        "Built responsive dashboard with React and Tailwind CSS",
+        "Created REST APIs with Express.js and MongoDB"
+      ],
+      "metrics": [
+        "70% reduction in task assignment time",
+        "35% improvement in team productivity", 
+        "200+ active users across 3 companies",
+        "99.9% uptime with automated monitoring"
+      ]
+    },
+    {
+      "id": "helpdesk-system",
+      "title": "AI Helpdesk System",
+      "summary": "Intelligent customer support platform with automated ticket routing and AI-powered response suggestions.",
+      "role": "Lead Developer",
+      "stack": ["React", "Node.js", "PostgreSQL", "LangChain", "Redis"],
+      "impact": "Improved response time by 50% and customer satisfaction by 40%",
+      "period": "2023-09 - 2024-02",
+      "images": [
+        "/screenshots/helpdesk-1.jpg", 
+        "/screenshots/helpdesk-2.jpg",
+        "/screenshots/helpdesk-3.jpg"
+      ],
+      "repo": "https://github.com/suneelrajput/ai-helpdesk",
+      "live": "https://helpdesk-demo.vercel.app",
+      "problem": "Customer support teams were overwhelmed with tickets and struggling to provide timely, accurate responses.",
+      "solution": "Developed an AI-powered helpdesk that automatically categorizes tickets, suggests responses, and routes to appropriate agents.",
+      "tech_details": [
+        "Implemented LangChain for intelligent response generation",
+        "Built ticket routing algorithm with priority scoring",
+        "Created real-time dashboard with live metrics",
+        "Integrated with email and chat systems via APIs"
+      ],
+      "metrics": [
+        "50% faster average response time",
+        "40% increase in customer satisfaction",
+        "1000+ tickets processed daily",
+        "85% accuracy in automated categorization"
+      ]
+    },
+    {
+      "id": "cbxmeet",
+      "title": "CBXMeet - Video Conferencing",
+      "summary": "Modern video conferencing platform with screen sharing, recording, and AI-powered meeting summaries.",
+      "role": "Frontend Lead",
+      "stack": ["React", "WebRTC", "Socket.io", "Node.js", "AWS S3"],
+      "impact": "Served 5000+ users with 99.8% connection success rate",
+      "period": "2024-01 - 2024-05",
+      "images": [
+        "/screenshots/cbxmeet-1.jpg",
+        "/screenshots/cbxmeet-2.jpg", 
+        "/screenshots/cbxmeet-3.jpg"
+      ],
+      "repo": "https://github.com/suneelrajput/cbxmeet",
+      "live": "https://cbxmeet.com",
+      "problem": "Existing video conferencing solutions were expensive and lacked modern features like AI summaries and seamless screen sharing.",
+      "solution": "Built a comprehensive video conferencing platform with WebRTC for real-time communication and AI integration for meeting insights.",
+      "tech_details": [
+        "Implemented WebRTC for peer-to-peer video communication",
+        "Built screen sharing and recording features",
+        "Created AI meeting summary using OpenAI API",
+        "Optimized for mobile and desktop responsive design"
+      ],
+      "metrics": [
+        "5000+ active users within 6 months",
+        "99.8% connection success rate",
+        "Average meeting duration: 45 minutes",
+        "95% user satisfaction score"
+      ]
+    },
+    {
+      "id": "recurring-reminders",
+      "title": "Recurring Reminders App",
+      "summary": "Smart reminder application with natural language processing and cross-platform notifications.",
+      "role": "Solo Developer",
+      "stack": ["React Native", "Node.js", "MongoDB", "Firebase"],
+      "impact": "10K+ downloads with 4.5 star rating on app stores",
+      "period": "2023-11 - 2024-01",
+      "images": [
+        "/screenshots/reminders-1.jpg",
+        "/screenshots/reminders-2.jpg",
+        "/screenshots/reminders-3.jpg"
+      ],
+      "repo": "https://github.com/suneelrajput/recurring-reminders",
+      "live": "https://play.google.com/store/apps/reminders",
+      "problem": "Users needed a simple way to set complex recurring reminders using natural language instead of complex date pickers.",
+      "solution": "Created an intelligent reminder app that understands natural language input and provides smart notification scheduling.",
+      "tech_details": [
+        "Implemented NLP for parsing natural language reminders",
+        "Built cross-platform mobile app with React Native",
+        "Created push notification system with Firebase",
+        "Designed intuitive UI with gesture-based interactions"
+      ],
+      "metrics": [
+        "10K+ downloads in first month",
+        "4.5/5 star rating on app stores",
+        "85% daily active user retention",
+        "Featured in 'New & Noteworthy' apps"
+      ]
+    },
+    {
+      "id": "lms-platform",
+      "title": "Learning Management System",
+      "summary": "Comprehensive LMS platform with video streaming, progress tracking, and AI-powered personalized learning paths.",
+      "role": "Senior Developer",
+      "stack": ["Next.js", "Node.js", "PostgreSQL", "AWS", "Stripe"],
+      "impact": "Serving 10K+ students with 95% completion rate",
+      "period": "2024-07 - Present",
+      "images": [
+        "/screenshots/lms-1.jpg",
+        "/screenshots/lms-2.jpg",
+        "/screenshots/lms-3.jpg" 
+      ],
+      "repo": "https://github.com/suneelrajput/lms-platform",
+      "live": "https://lms-platform.com",
+      "problem": "Educational institutions needed a scalable platform for online learning with personalized student experiences.",
+      "solution": "Built a full-featured LMS with video streaming, progress analytics, and AI-driven personalized learning recommendations.",
+      "tech_details": [
+        "Implemented video streaming with AWS CloudFront CDN",
+        "Built progress tracking and analytics dashboard",
+        "Created AI-powered learning path recommendations",
+        "Integrated payment processing with Stripe API"
+      ],
+      "metrics": [
+        "10K+ active students enrolled",
+        "95% course completion rate",
+        "40% improvement in learning outcomes",
+        "$100K+ revenue generated for institutions"
+      ]
+    },
+    {
+      "id": "ai-product-assistant",
+      "title": "AI Product Assistant",
+      "summary": "Intelligent product recommendation system using machine learning and natural language processing.",
+      "role": "AI Developer",
+      "stack": ["Python", "React", "FastAPI", "TensorFlow", "MongoDB"],
+      "impact": "Increased conversion rates by 45% for e-commerce clients",
+      "period": "2024-08 - Present", 
+      "images": [
+        "/screenshots/ai-assistant-1.jpg",
+        "/screenshots/ai-assistant-2.jpg",
+        "/screenshots/ai-assistant-3.jpg"
+      ],
+      "repo": "https://github.com/suneelrajput/ai-product-assistant",
+      "live": "https://ai-assistant.vercel.app",
+      "problem": "E-commerce businesses struggled with low conversion rates due to poor product discovery and recommendation systems.",
+      "solution": "Developed an AI assistant that understands user preferences and provides personalized product recommendations through natural conversations.",
+      "tech_details": [
+        "Trained ML models for product similarity and user preferences",
+        "Implemented conversational AI using OpenAI and LangChain",
+        "Built real-time recommendation engine with Python/FastAPI",
+        "Created responsive chat interface with React and WebSocket"
+      ],
+      "metrics": [
+        "45% increase in conversion rates",
+        "60% improvement in user engagement",
+        "30% reduction in customer support queries",
+        "Deployed across 15+ e-commerce websites"
+      ]
+    }
+  ]
+}

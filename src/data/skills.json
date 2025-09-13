@@ -1,0 +1,79 @@
+{
+  "categories": {
+    "Frontend": {
+      "color": "electric-indigo",
+      "skills": [
+        {
+          "name": "React.js",
+          "proficiency": 90,
+          "tools": ["Hooks", "Context API", "Redux", "Next.js"]
+        },
+        {
+          "name": "JavaScript/TypeScript", 
+          "proficiency": 85,
+          "tools": ["ES6+", "TypeScript", "Webpack", "Vite"]
+        },
+        {
+          "name": "Tailwind CSS",
+          "proficiency": 88,
+          "tools": ["Responsive Design", "Animations", "Component Libraries"]
+        },
+        {
+          "name": "HTML5/CSS3",
+          "proficiency": 92,
+          "tools": ["Semantic HTML", "Flexbox", "Grid", "SASS"]
+        }
+      ]
+    },
+    "Backend": {
+      "color": "teal-accent",
+      "skills": [
+        {
+          "name": "Node.js",
+          "proficiency": 85,
+          "tools": ["Express.js", "RESTful APIs", "Microservices", "JWT"]
+        },
+        {
+          "name": "MongoDB",
+          "proficiency": 80,
+          "tools": ["Mongoose", "Aggregation", "Indexing", "Atlas"]
+        },
+        {
+          "name": "SQL Databases",
+          "proficiency": 75,
+          "tools": ["PostgreSQL", "MySQL", "Query Optimization", "Joins"]
+        },
+        {
+          "name": "Python",
+          "proficiency": 70,
+          "tools": ["FastAPI", "Django", "Data Processing", "Automation"]
+        }
+      ]
+    },
+    "AI & Tools": {
+      "color": "electric-indigo",
+      "skills": [
+        {
+          "name": "Generative AI",
+          "proficiency": 78,
+          "tools": ["OpenAI API", "LangChain", "RAG", "Prompt Engineering"]
+        },
+        {
+          "name": "AWS Cloud",
+          "proficiency": 72,
+          "tools": ["EC2", "S3", "Lambda", "API Gateway"]
+        },
+        {
+          "name": "Docker & DevOps",
+          "proficiency": 75,
+          "tools": ["Docker", "CI/CD", "GitHub Actions", "Nginx"]
+        },
+        {
+          "name": "Git & Collaboration",
+          "proficiency": 88,
+          "tools": ["Git", "GitHub", "Code Reviews", "Agile/Scrum"]
+        }
+      ]
+    }
+  }
+}

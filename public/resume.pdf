@@ -1,0 +1,142 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+  /Font <<
+    /F1 5 0 R
+  >>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1200
+>>
+stream
+BT
+/F1 18 Tf
+50 750 Td
+(SUNEEL RAJPUT) Tj
+0 -30 Td
+/F1 12 Tf
+(Software Engineer • MERN & Generative AI • 2 Years Experience) Tj
+0 -20 Td
+(Email: suneel.rajput@example.com | Phone: +91-9876543210) Tj
+0 -15 Td
+(LinkedIn: linkedin.com/in/suneel-rajput | GitHub: github.com/suneelrajput) Tj
+0 -40 Td
+/F1 14 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -20 Td
+/F1 10 Tf
+(Experienced Software Engineer with 2+ years specializing in MERN stack and) Tj
+0 -12 Td
+(Generative AI. Built 6+ production applications serving thousands of users.) Tj
+0 -12 Td
+(Proven track record of improving system performance and leading development) Tj
+0 -12 Td
+(teams. Passionate about creating scalable solutions for real-world problems.) Tj
+0 -30 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F1 10 Tf
+(Frontend: React.js, JavaScript/TypeScript, HTML5/CSS3, Tailwind CSS) Tj
+0 -12 Td
+(Backend: Node.js, Express.js, Python, RESTful APIs, Microservices) Tj
+0 -12 Td
+(Databases: MongoDB, PostgreSQL, MySQL) Tj
+0 -12 Td
+(AI & Tools: OpenAI API, LangChain, AWS, Docker, Git, CI/CD) Tj
+0 -30 Td
+/F1 14 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+0 -20 Td
+/F1 12 Tf
+(Software Developer - ABC Company \(July 2024 - Present\)) Tj
+0 -15 Td
+/F1 10 Tf
+(• Maintaining and scaling Learning Management System serving 10K+ users) Tj
+0 -12 Td
+(• Working on AI product features using OpenAI API and LangChain) Tj
+0 -12 Td
+(• Implementing microservices architecture with Docker and AWS) Tj
+0 -12 Td
+(• Reduced deployment time by 60% through CI/CD pipeline optimization) Tj
+0 -20 Td
+/F1 12 Tf
+(Associate Software Developer - XYZ Company \(Jan 2023 - June 2024\)) Tj
+0 -15 Td
+/F1 10 Tf
+(• Built Task Delegation & Helpdesk systems from scratch using MERN stack) Tj
+0 -12 Td
+(• Improved system response time by 35% through database optimization) Tj
+0 -12 Td
+(• Integrated AI-powered features for automated task assignment) Tj
+0 -12 Td
+(• Led code reviews and mentored 2 junior developers) Tj
+0 -20 Td
+/F1 12 Tf
+(Intern - XYZ Company \(June 2022 - Dec 2022\)) Tj
+0 -15 Td
+/F1 10 Tf
+(• Developed responsive onboarding flows using React and Node.js) Tj
+0 -12 Td
+(• Built internal dashboard tools that improved team productivity by 25%) Tj
+0 -30 Td
+/F1 14 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F1 12 Tf
+(Bachelor of Technology \(B.Tech\)) Tj
+0 -15 Td
+/F1 10 Tf
+(CSJMU Kanpur - Batch 2024) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000060 00000 n 
+0000000117 00000 n 
+0000000273 00000 n 
+0000001525 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1580
+%%EOF
