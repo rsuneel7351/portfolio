@@ -6,22 +6,32 @@
         {
           "name": "React.js",
           "proficiency": 90,
-          "tools": ["Hooks", "Context API", "Redux", "Next.js"]
+          "tools": [
+            "Hooks",
+            "Context API",
+            "Redux",
+            "Next.js",
+            "Redux Toolkit"
+          ]
         },
         {
-          "name": "JavaScript/TypeScript", 
-          "proficiency": 85,
-          "tools": ["ES6+", "TypeScript", "Webpack", "Vite"]
+          "name": "JavaScript/TypeScript",
+          "proficiency": 95,
+          "tools": [
+            "ES6+",
+            "TypeScript",
+            "Webpack",
+            "Vite"
+          ]
         },
         {
           "name": "Tailwind CSS",
-          "proficiency": 88,
-          "tools": ["Responsive Design", "Animations", "Component Libraries"]
-        },
-        {
-          "name": "HTML5/CSS3",
-          "proficiency": 92,
-          "tools": ["Semantic HTML", "Flexbox", "Grid", "SASS"]
+          "proficiency": 90,
+          "tools": [
+            "Responsive Design",
+            "Animations",
+            "Component Libraries"
+          ]
         }
       ]
     },
@@ -31,22 +41,43 @@
         {
           "name": "Node.js",
           "proficiency": 85,
-          "tools": ["Express.js", "RESTful APIs", "Microservices", "JWT"]
+          "tools": [
+            "Express.js",
+            "RESTful APIs",
+            "Microservices",
+            "JWT",
+            "Fastify"
+          ]
         },
         {
           "name": "MongoDB",
-          "proficiency": 80,
-          "tools": ["Mongoose", "Aggregation", "Indexing", "Atlas"]
+          "proficiency": 85,
+          "tools": [
+            "Mongoose",
+            "Aggregation",
+            "Indexing",
+            "Atlas"
+          ]
         },
         {
           "name": "SQL Databases",
           "proficiency": 75,
-          "tools": ["PostgreSQL", "MySQL", "Query Optimization", "Joins"]
+          "tools": [
+            "PostgreSQL",
+            "MySQL",
+            "Query Optimization",
+            "Joins"
+          ]
         },
         {
           "name": "Python",
           "proficiency": 70,
-          "tools": ["FastAPI", "Django", "Data Processing", "Automation"]
+          "tools": [
+            "FastAPI",
+            "Django",
+            "Data Processing",
+            "Automation"
+          ]
         }
       ]
     },
@@ -56,22 +87,24 @@
         {
           "name": "Generative AI",
           "proficiency": 78,
-          "tools": ["OpenAI API", "LangChain", "RAG", "Prompt Engineering"]
-        },
-        {
-          "name": "AWS Cloud",
-          "proficiency": 72,
-          "tools": ["EC2", "S3", "Lambda", "API Gateway"]
+          "tools": [
+            "OpenAI API",
+            "LangChain",
+            "RAG",
+            "Prompt Engineering",
+            "Open Router",
+            "Vector Database"
+          ]
         },
         {
           "name": "Docker & DevOps",
           "proficiency": 75,
-          "tools": ["Docker", "CI/CD", "GitHub Actions", "Nginx"]
-        },
-        {
-          "name": "Git & Collaboration",
-          "proficiency": 88,
-          "tools": ["Git", "GitHub", "Code Reviews", "Agile/Scrum"]
+          "tools": [
+            "Docker",
+            "CI/CD",
+            "GitHub Actions",
+            "Nginx"
+          ]
         }
       ]
     }

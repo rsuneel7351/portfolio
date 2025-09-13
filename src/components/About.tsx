@@ -22,7 +22,7 @@ const About = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10">
           {/* Left Side - Bio and Info */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -39,10 +39,11 @@ const About = () => {
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 {profile.short_bio}
               </p>
-              
+
               {/* Key Info */}
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div className="flex items-center gap-3">
+              <div className="flex flex-wrap gap-4">
+                {/* Experience */}
+                <div className="flex items-center gap-3 w-[48%]">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-electric-indigo to-teal-accent flex items-center justify-center">
                     <Calendar size={20} className="text-slate-800" />
                   </div>
@@ -51,18 +52,9 @@ const About = () => {
                     <p className="font-semibold text-foreground">{profile.experience_years} Years</p>
                   </div>
                 </div>
-                
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-r from-teal-accent to-electric-indigo flex items-center justify-center">
-                    <Award size={20} className="text-slate-800" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground">Education</p>
-                    <p className="font-semibold text-foreground">{profile.education}</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-3">
+
+                {/* Location */}
+                <div className="flex items-center gap-3 w-[48%]">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-electric-indigo to-teal-accent flex items-center justify-center">
                     <MapPin size={20} className="text-slate-800" />
                   </div>
@@ -71,8 +63,20 @@ const About = () => {
                     <p className="font-semibold text-foreground">{profile.contact.location}</p>
                   </div>
                 </div>
-                
-                <div className="flex items-center gap-3">
+
+                {/* Award (Single row) */}
+                <div className="flex items-center gap-3 w-full">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-r from-teal-accent to-electric-indigo flex items-center justify-center">
+                    <Award size={20} className="text-slate-800" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground">Education</p>
+                    <p className="font-semibold text-foreground">{profile.education}</p>
+                  </div>
+                </div>
+
+                {/* Current Role */}
+                <div className="flex items-center gap-3 w-[48%]">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-teal-accent to-electric-indigo flex items-center justify-center">
                     <Building2 size={20} className="text-slate-800" />
                   </div>
@@ -82,6 +86,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
+
             </div>
 
             {/* Achievements */}
@@ -119,7 +124,7 @@ const About = () => {
               <h3 className="text-2xl font-bold font-poppins mb-8 text-foreground">
                 Professional Journey
               </h3>
-              
+
               <div className="space-y-8">
                 {profile.positions.map((position, index) => (
                   <motion.div
@@ -143,7 +148,7 @@ const About = () => {
                           <span className="text-sm">{position.period}</span>
                         </div>
                       </div>
-                      
+
                       {/* Responsibilities */}
                       <ul className="space-y-2 ml-4">
                         {position.bullets.map((bullet, bulletIndex) => (

@@ -95,11 +95,6 @@ const Footer = () => {
             <p className="text-muted-foreground text-sm">
               © {currentYear} {profile.name}. All rights reserved.
             </p>
-            <p className="text-muted-foreground text-sm flex items-center justify-center gap-1">
-              Built with 
-              <Heart size={14} className="text-red-500 fill-current animate-pulse" /> 
-              using React, TypeScript & Framer Motion
-            </p>
           </motion.div>
 
           {/* Quick Contact */}

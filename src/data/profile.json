@@ -1,9 +1,9 @@
 {
   "name": "Suneel Kumar",
-  "headline": "Turning ideas into scalable SaaS and AI-powered products.",
+  "headline": "Focused on delivering high-performance applications with MERN & Generative AI",
   "role": "Software Engineer • MERN & Generative AI",
   "experience_years": 2,
-  "education": "B.Tech in Computer Science, CSJMU Kanpur (Batch of 2024)",
+  "education": "B.Tech in Information Technology, CSJMU Kanpur (2024)",
   "positions": [
     {
       "company": "CEOITBOX",
@@ -40,15 +40,15 @@
   ],
   "contact": {
     "email": "rsuneel47@gmail.com",
-    "phone": "+91-9876543210",
-    "linkedin": "https://www.linkedin.com/in/suneel-rajput",
-    "github": "https://github.com/suneelrajput",
-    "location": "Kanpur, India"
+    "phone": "+91-7351437357",
+    "linkedin": "https://www.linkedin.com/in/suneel7351/",
+    "github": "https://github.com/suneel7351",
+    "location": "Delhi, India"
   },
   "resume_path": "/resume.pdf",
   "short_bio": "Software Engineer with 2+ years of experience building full-stack SaaS and AI-driven products. Skilled in React, Node.js, MongoDB, SQL, and Generative AI. Passionate about delivering scalable, production-ready solutions that create real business impact.",
   "achievements": [
-    "Delivered 6+ production applications impacting thousands of users.",
+    "Delivered 8+ production applications impacting thousands of users.",
     "Improved system performance by 35% through optimization and clean architecture.",
     "Led the development of AI-powered automation features adopted company-wide.",
     "Actively mentored junior developers and participated in technical interviews."

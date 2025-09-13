@@ -70,7 +70,7 @@ const Skills = () => {
               className="skill-node group relative"
             >
               {/* Category Badge */}
-              <div className="absolute -top-2 -right-2 z-10">
+              <div className="absolute -top-1 -right-1 z-10">
                 <div 
                   className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold"
                   style={{

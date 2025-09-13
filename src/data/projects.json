@@ -5,16 +5,20 @@
       "title": "Task Delegation System",
       "summary": "AI-powered task management platform that automatically assigns tasks based on team member skills and availability.",
       "role": "Full-Stack Developer",
-      "stack": ["React", "Node.js", "MongoDB", "OpenAI API", "Socket.io"],
+      "stack": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "OpenAI API",
+        "Socket.io"
+      ],
       "impact": "Reduced task assignment time by 70% and improved team productivity by 35%",
-      "period": "2023-03 - 2023-08",
+      "period": "2024-10 - 2025-05",
       "images": [
-        "/screenshots/task-delegation-1.jpg",
-        "/screenshots/task-delegation-2.jpg",
-        "/screenshots/task-delegation-3.jpg"
+        "/screenshots/delegation.png"
       ],
       "repo": "https://github.com/suneelrajput/task-delegation",
-      "live": "https://task-delegation.vercel.app",
+      "live": "https://task.ceoitbox.com/",
       "problem": "Manual task assignment was time-consuming and often resulted in mismatched assignments based on team member availability and skills.",
       "solution": "Built an AI-powered system that analyzes task requirements, team member skills, and current workload to automatically suggest optimal task assignments.",
       "tech_details": [
@@ -25,8 +29,8 @@
       ],
       "metrics": [
         "70% reduction in task assignment time",
-        "35% improvement in team productivity", 
-        "200+ active users across 3 companies",
+        "35% improvement in team productivity",
+        "900+ active users across 14 companies",
         "99.9% uptime with automated monitoring"
       ]
     },
@@ -35,13 +39,17 @@
       "title": "AI Helpdesk System",
       "summary": "Intelligent customer support platform with automated ticket routing and AI-powered response suggestions.",
       "role": "Lead Developer",
-      "stack": ["React", "Node.js", "PostgreSQL", "LangChain", "Redis"],
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "LangChain",
+        "Redis"
+      ],
       "impact": "Improved response time by 50% and customer satisfaction by 40%",
-      "period": "2023-09 - 2024-02",
+      "period": "2024-02 - 2024-05",
       "images": [
-        "/screenshots/helpdesk-1.jpg", 
-        "/screenshots/helpdesk-2.jpg",
-        "/screenshots/helpdesk-3.jpg"
+        "/screenshots/helpdesk.png"
       ],
       "repo": "https://github.com/suneelrajput/ai-helpdesk",
       "live": "https://helpdesk-demo.vercel.app",
@@ -56,7 +64,7 @@
       "metrics": [
         "50% faster average response time",
         "40% increase in customer satisfaction",
-        "1000+ tickets processed daily",
+        "4000+ tickets processed daily",
         "85% accuracy in automated categorization"
       ]
     },
@@ -65,12 +73,18 @@
       "title": "CBXMeet - Video Conferencing",
       "summary": "Modern video conferencing platform with screen sharing, recording, and AI-powered meeting summaries.",
       "role": "Frontend Lead",
-      "stack": ["React", "WebRTC", "Socket.io", "Node.js", "AWS S3"],
+      "stack": [
+        "React",
+        "WebRTC",
+        "Socket.io",
+        "Node.js",
+        "AWS S3"
+      ],
       "impact": "Served 5000+ users with 99.8% connection success rate",
       "period": "2024-01 - 2024-05",
       "images": [
         "/screenshots/cbxmeet-1.jpg",
-        "/screenshots/cbxmeet-2.jpg", 
+        "/screenshots/cbxmeet-2.jpg",
         "/screenshots/cbxmeet-3.jpg"
       ],
       "repo": "https://github.com/suneelrajput/cbxmeet",
@@ -95,7 +109,12 @@
       "title": "Recurring Reminders App",
       "summary": "Smart reminder application with natural language processing and cross-platform notifications.",
       "role": "Solo Developer",
-      "stack": ["React Native", "Node.js", "MongoDB", "Firebase"],
+      "stack": [
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Firebase"
+      ],
       "impact": "10K+ downloads with 4.5 star rating on app stores",
       "period": "2023-11 - 2024-01",
       "images": [
@@ -125,13 +144,19 @@
       "title": "Learning Management System",
       "summary": "Comprehensive LMS platform with video streaming, progress tracking, and AI-powered personalized learning paths.",
       "role": "Senior Developer",
-      "stack": ["Next.js", "Node.js", "PostgreSQL", "AWS", "Stripe"],
+      "stack": [
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "Stripe"
+      ],
       "impact": "Serving 10K+ students with 95% completion rate",
       "period": "2024-07 - Present",
       "images": [
         "/screenshots/lms-1.jpg",
         "/screenshots/lms-2.jpg",
-        "/screenshots/lms-3.jpg" 
+        "/screenshots/lms-3.jpg"
       ],
       "repo": "https://github.com/suneelrajput/lms-platform",
       "live": "https://lms-platform.com",
@@ -155,9 +180,15 @@
       "title": "AI Product Assistant",
       "summary": "Intelligent product recommendation system using machine learning and natural language processing.",
       "role": "AI Developer",
-      "stack": ["Python", "React", "FastAPI", "TensorFlow", "MongoDB"],
+      "stack": [
+        "Python",
+        "React",
+        "FastAPI",
+        "TensorFlow",
+        "MongoDB"
+      ],
       "impact": "Increased conversion rates by 45% for e-commerce clients",
-      "period": "2024-08 - Present", 
+      "period": "2024-08 - Present",
       "images": [
         "/screenshots/ai-assistant-1.jpg",
         "/screenshots/ai-assistant-2.jpg",

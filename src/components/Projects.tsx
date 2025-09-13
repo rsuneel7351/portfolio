@@ -62,9 +62,8 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className={`flex flex-col ${
-                index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
-              } items-center gap-12`}
+              className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
+                } items-center gap-12`}
             >
               {/* Project Image */}
               <div className="lg:w-1/2">
@@ -75,19 +74,16 @@ const Projects = () => {
                 >
                   <div className="glass rounded-2xl overflow-hidden">
                     <div className="aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
-                      <div className="text-center">
-                        <div className="w-16 h-16 mx-auto mb-4 rounded-lg bg-gradient-to-br from-electric-indigo to-teal-accent flex items-center justify-center">
-                          <span className="text-2xl font-bold text-slate-800">
-                            {project.title.charAt(0)}
-                          </span>
-                        </div>
-                        <p className="text-sm text-muted-foreground">Click to view details</p>
-                      </div>
+                      <img
+                        src={project.images[0]}
+                        alt={project.title}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
-                  
+
                   {/* Hover Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl flex items-end p-6">
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-100 transition-opacity duration-300 rounded-2xl flex items-end p-6">
                     <div className="text-white">
                       <p className="font-medium mb-2">View Case Study</p>
                       <div className="flex space-x-4">
@@ -98,6 +94,7 @@ const Projects = () => {
                   </div>
                 </motion.div>
               </div>
+
 
               {/* Project Content */}
               <div className="lg:w-1/2 space-y-6">
@@ -111,7 +108,7 @@ const Projects = () => {
                       {project.title}
                     </motion.h3>
                   </div>
-                  
+
                   <div className="flex flex-wrap items-center gap-4 mb-4 text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
                       <User size={16} />
@@ -155,7 +152,7 @@ const Projects = () => {
                   >
                     View Case Study
                   </motion.button>
-                  
+
                   {project.live && (
                     <motion.a
                       href={project.live}
@@ -169,7 +166,7 @@ const Projects = () => {
                       Live Demo
                     </motion.a>
                   )}
-                  
+
                   {project.repo && (
                     <motion.a
                       href={project.repo}
@@ -295,7 +292,7 @@ const Projects = () => {
                       Live Demo
                     </motion.a>
                   )}
-                  
+
                   {selectedProject.repo && (
                     <motion.a
                       href={selectedProject.repo}

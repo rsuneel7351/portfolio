@@ -139,37 +139,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Quick Actions */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="glass p-8 rounded-2xl"
-            >
-              <h3 className="text-xl font-bold font-poppins mb-6 text-foreground">
-                Quick Actions
-              </h3>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <motion.a
-                  href={profile.resume_path}
-                  download
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="btn-primary flex-1 text-center"
-                >
-                  Download Resume
-                </motion.a>
-                <motion.a
-                  href={`mailto:${profile.contact.email}?subject=Let's discuss a project&body=Hi ${profile.name},%0D%0A%0D%0AI'd like to discuss a potential project with you.`}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="btn-ghost flex-1 text-center"
-                >
-                  Schedule Meeting
-                </motion.a>
-              </div>
-            </motion.div>
           </motion.div>
 
           {/* Contact Form */}
