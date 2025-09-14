@@ -126,7 +126,7 @@ const About = () => {
               </h3>
 
               <div className="space-y-8">
-                {profile.positions.map((position, index) => (
+                {profile.positions.reverse().map((position, index) => (
                   <motion.div
                     key={index}
                     initial={{ opacity: 0, y: 20 }}

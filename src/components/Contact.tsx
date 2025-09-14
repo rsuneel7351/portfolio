@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Linkedin, Github, Send, CheckCircle } from 'lucide-react';
 import profile from '../data/profile.json';
-
+import emailjs from 'emailjs-com';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -21,15 +21,26 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, you would send this data to your backend
-    console.log('Form submitted:', formData);
-    setIsSubmitted(true);
-    
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: '', email: '', subject: '', message: '' });
-    }, 3000);
+
+    emailjs.send(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      },
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
+
+      .then(() => {
+        setIsSubmitted(true);
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      })
+      .catch((err) => {
+        console.error("EmailJS Error:", err);
+      });
   };
 
   const contactMethods = [
@@ -102,7 +113,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold font-poppins mb-8 text-foreground">
                 Get In Touch
               </h3>
-              
+
               <div className="space-y-6">
                 {contactMethods.map((method, index) => (
                   <motion.a
@@ -117,7 +128,7 @@ const Contact = () => {
                     whileHover={{ x: 5, scale: 1.02 }}
                     className="flex items-center gap-4 p-4 rounded-xl glass-hover group transition-all duration-300"
                   >
-                    <div 
+                    <div
                       className={`w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 group-hover:scale-110`}
                       style={{
                         background: `linear-gradient(135deg, hsl(var(--${method.color})), hsl(var(--${method.color}-glow)))`,
@@ -206,7 +217,7 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  
+
                   <div>
                     <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
                       Subject *
@@ -222,7 +233,7 @@ const Contact = () => {
                       placeholder="What's this about?"
                     />
                   </div>
-                  
+
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
                       Message *
@@ -238,7 +249,7 @@ const Contact = () => {
                       placeholder="Tell me about your project or how I can help..."
                     />
                   </div>
-                  
+
                   <motion.button
                     type="submit"
                     whileHover={{ scale: 1.05 }}

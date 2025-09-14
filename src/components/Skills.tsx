@@ -60,7 +60,7 @@ const Skills = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6"
         >
           {allSkills.map((skill, skillIndex) => (
             <motion.div
@@ -142,31 +142,8 @@ const Skills = () => {
                 </div>
               </div>
 
-              {/* Category Label */}
-              <div className="mb-3">
-                <span className="text-xs font-medium px-2 py-1 rounded-full glass text-muted-foreground">
-                  {skill.category}
-                </span>
-              </div>
 
-              {/* Tools */}
-              <div className="space-y-2">
-                <p className="text-sm font-medium text-muted-foreground">Related Tools:</p>
-                <div className="flex flex-wrap gap-2">
-                  {skill.tools.map((tool, toolIndex) => (
-                    <motion.span
-                      key={tool}
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.3, delay: skillIndex * 0.1 + toolIndex * 0.05 }}
-                      className="px-3 py-1 text-xs font-medium rounded-full glass text-foreground hover:text-primary transition-colors"
-                    >
-                      {tool}
-                    </motion.span>
-                  ))}
-                </div>
-              </div>
+             
             </motion.div>
           ))}
         </motion.div>
